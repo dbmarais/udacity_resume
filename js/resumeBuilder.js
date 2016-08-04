@@ -14,7 +14,7 @@ var bio = {
           "contact" : ["Hennef","mail@deonmarais.com","tel: 011222333","Github"],
           "picture" : "pic",
           "welcome" : "This is a welcome Message",
-          "skills" : ["R","MS Excel Guru"]
+          "skills" : ["R","MS Excel Guru","python","Grel"]
   };
 
 
@@ -62,7 +62,11 @@ $("#header").append(formattedName);
 var formattedRole = HTMLheaderRole.replace("%data%",bio.role);
 $("#header").append(formattedRole);
 
+var formattedBiopic = HTMLbioPic.replace("%data%","/images/fry.jpg");
+$("#header").append(formattedBiopic);
 
+var formattedWelcome = HTMLwelcomeMsg.replace("%data%","Dolor aute mollit ipsum id adipisicing minim dolore mollit consequat aliqua consectetur culpa.")
+$("#header").append(formattedWelcome);
     $("#header").append(HTMLskillsStart);
 
     var formattedSkill = HTMLskills.replace("%data%",bio.skills[0]);
@@ -71,7 +75,8 @@ $("#header").append(formattedRole);
     $("#skills").append(formattedSkill);
     var formattedSkill = HTMLskills.replace("%data%",bio.skills[2]);
     $("#skills").append(formattedSkill);
-
+    var formattedSkill = HTMLskills.replace("%data%",bio.skills[3]);
+    $("#skills").append(formattedSkill);
 
 
  for(job in work.jobs){
