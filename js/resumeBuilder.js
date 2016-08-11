@@ -19,8 +19,8 @@ var bio = {
     "python",
     "Grel"
   ],
-  "biopic": "images/fry.jpg",
-  "display": function(){}
+  "biopic": "images/fry.jpg"
+
 
 
 };
@@ -62,8 +62,8 @@ var education = {
       "dates": "2004-2006",
       "url": "www.uj.ac.za"
     },
-  ],
-  "display":function(){}
+  ]
+
 };
 
 
@@ -83,8 +83,8 @@ var work = {
       "dates": "2010-2011",
       "description": "Cross Border Banking Project: Proident labore sint do esse et labore sit ex elit in officia do ut amet reprehenderit elit.Laboris commodo exercitation consequat mollit excepteur ullamco ad irure. Aute in est veniam consequat consequat laboris sit amet Lorem irure incididunt pariatur commodo amet est cillum. Non nulla aliquip culpa ullamco culpa ipsum non excepteur eiusmod quis nostrud laborum labore non duis excepteur. Aliqua nostrud minim nulla proident in minim reprehenderit. Mollit eu duis nulla duis aliqua eiusmod eu enim esse. Pariatur consequat velit dolor esse sint magna ex. Sit sit tempor proident do anim Lorem id sit quis laborum anim dolore tempor laborum dolor enim id."
     }
-  ],
-  "display":function(){}
+  ]
+
 };
 
 var projects = {
@@ -96,7 +96,7 @@ var projects = {
           "images":["https://placehold.it/180X120","https://placehold.it/180X120","https://placehold.it/180X120","https://placehold.it/180X120"]
         }
     ],
-    "display":function(){}
+    
 };
 
 //SECTION II: Defining the display functions
