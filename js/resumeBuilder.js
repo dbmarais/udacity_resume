@@ -1,6 +1,8 @@
 /*
 This is empty on purpose! Your code to build the resume will go here.
  */
+ //Using Strict mode.
+"use strict";
 
 //SECTION I: JSon Objects to store Resume info
 var bio = {
@@ -10,6 +12,7 @@ var bio = {
     "mobile": "0157755475",
     "email": "mail@deonmarais.com",
     "github": "github",
+    "twitter":"The Twitter",
     "location": "Cologne, Germany"
   },
   "welcomeMessage": "This is a welcome message welcoming you to my Resume",
@@ -96,7 +99,7 @@ var projects = {
           "images":["https://placehold.it/180X120","https://placehold.it/180X120","https://placehold.it/180X120","https://placehold.it/180X120"]
         }
     ],
-    
+
 };
 
 //SECTION II: Defining the display functions
