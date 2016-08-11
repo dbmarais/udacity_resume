@@ -23,9 +23,6 @@ var bio = {
     "Grel"
   ],
   "biopic": "images/fry.jpg"
-
-
-
 };
 
 
